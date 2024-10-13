@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2b7c1;
+    color: #64265f;
+    text-align: center;
+    
+}
+table {
+    width:60%;
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+td {
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+header {
+    background-color: #f0497e;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #b61447;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    color: #231818;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+   text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fc2d83;
+    text-align: center;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #e883e0;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+}
